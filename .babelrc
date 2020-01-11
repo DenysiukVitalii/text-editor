@@ -1,0 +1,21 @@
+{
+  "presets": [
+    "react-app"
+  ],
+  "plugins": [
+    [
+      "@babel/plugin-proposal-decorators",
+      {
+        "legacy": true
+      }
+    ],
+    ["styled-components", { "ssr": false, "displayName": true, "preprocess": false } ],
+    ["module-resolver", {
+      "root": ["./"],
+      "alias": {
+        "test": "./test",
+        "underscore": "lodash"
+      }
+    }]
+  ]
+}
