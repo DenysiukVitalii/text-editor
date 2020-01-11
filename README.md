@@ -1,5 +1,9 @@
 # Custom Text Editor
 
+## Initial setup
+
+### Run `yarn` in order to setup application
+
 ## Available Scripts
 
 In the project directory, you can run:
