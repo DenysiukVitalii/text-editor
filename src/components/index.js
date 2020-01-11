@@ -1,9 +1,13 @@
-import ControlPanel from './control-panel';
+import ControlPanel from './ControlPanel';
 import FileZone from './file-zone';
-import TextField from './text-field';
+import TextField from './TextField';
+import Button from './Button';
+import Tooltip from './Tooltip';
 
 export {
   ControlPanel,
   FileZone,
-  TextField
+  TextField,
+  Button,
+  Tooltip
 }
